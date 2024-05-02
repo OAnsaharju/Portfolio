@@ -1,0 +1,47 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 50vw;
+  margin: 0 auto;
+  border: 1px rgb(230, 230, 230) solid;
+  border-radius: 15px;
+  padding: 40px;
+  background-color: rgba(83, 83, 83, 0.913);
+}
+
+.about-label {
+  padding: 1rem;
+  color: rgb(194, 194, 194);
+}
+
+.about-text {
+  padding: 1rem;
+  color: rgb(207, 207, 207);
+}
+
+.tech-stack-bar {
+  display: flex;
+  border: solid white 1px;
+  background-color: rgb(217, 217, 217);
+  border-radius: 14px;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.tech-stack-bar p {
+  padding: 20px;
+}
+
+.about-subject-list {
+  margin: 20px;
+  color: rgba(255, 255, 255, 0.765);
+}
+
+.about-subject-item {
+  padding: 6px;
+}
