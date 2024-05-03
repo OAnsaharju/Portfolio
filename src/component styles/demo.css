@@ -9,6 +9,10 @@
   margin-top: 20px;
 }
 
+h1 {
+  color: antiquewhite;
+}
+
 .demo-item {
   border: solid 1px rgba(255, 255, 255, 0.732);
   display: flex;

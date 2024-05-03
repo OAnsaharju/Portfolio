@@ -4,7 +4,7 @@ import "../component styles/demo.css";
 function Demo() {
   return (
     <div className="demo-container">
-      <h1 className="demo-header">Projektejani</h1>
+      <h1 className="demo-header">Projects</h1>
       <div className="demo-subcontainer">
         <div className="demo-item">
           <h4 className="demo-label">Golf App</h4>
@@ -14,9 +14,11 @@ function Demo() {
             viitekehyksessä joten päätin rakentaa sellaisen! Samalla projekti
             osoittautui loistavaksi mahdollisuudeksi opetella noSQL
             tietokannoista ja State Management. React JS, MongoDB, Redux,
-            Express.{" "}
-            <a href="https://github.com/OAnsaharju/Golfapp">Linkki repoon</a>
+            Express.
           </p>
+          <a href="https://github.com/OAnsaharju/Golfapp">Linkki repoon</a>
+
+          <img src="../golf-app.PNG" alt="Golf app picture" />
         </div>
         <div className="demo-item">
           <h4 className="demo-label">Delivery Fee Calculator</h4>
@@ -28,20 +30,21 @@ function Demo() {
             tyypitettynä!
           </p>
           <a href="https://github.com/OAnsaharju/fee-calculator">
-            {" "}
             Linkki repoon
           </a>
+          <img src="../calculator-fee.PNG" alt="Fee Calculator app picture" />
         </div>
       </div>
       <div className="demo-subcontainer">
         <div className="demo-item">
           <h4 className="demo-label">Weather app</h4>
           <p className="demo-text">
-            Klassikko! Harjoitus jossa tutustuin API käyttöön käyttäen React JS
+            Yksi ensimmäisistä harjoituksista React JS
           </p>
           <a href="https://github.com/OAnsaharju/weather-app-react">
             Linkki repoon
           </a>
+          <img src="../weather-app.PNG" alt="Weather app picture" />
         </div>
         <div className="demo-item">
           <h4 className="demo-label">Portfolio</h4>
