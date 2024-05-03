@@ -7,38 +7,46 @@ function Demo() {
       <h1 className="demo-header">Projektejani</h1>
       <div className="demo-subcontainer">
         <div className="demo-item">
-          <h4 className="demo-label">Projekti 1</h4>
+          <h4 className="demo-label">Golf App</h4>
           <p className="demo-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse velit
-            cumque repudiandae labore ullam recusandae iure corrupti architecto
-            deleniti blanditiis!
+            Jokavuotisen Golfkilpailumme järjestäminen osui kohdalleni. En
+            löytänyt valmista appia joukkueiden arpomiseen Golffin
+            viitekehyksessä joten päätin rakentaa sellaisen! Samalla projekti
+            osoittautui loistavaksi mahdollisuudeksi opetella noSQL
+            tietokannoista ja State Management. React JS, MongoDB, Redux,
+            Express.{" "}
+            <a href="https://github.com/OAnsaharju/Golfapp">Linkki repoon</a>
           </p>
         </div>
         <div className="demo-item">
-          <h4 className="demo-label">Projekti 2</h4>
+          <h4 className="demo-label">Delivery Fee Calculator</h4>
           <p className="demo-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse velit
-            cumque repudiandae labore ullam recusandae iure corrupti architecto
-            deleniti blanditiis!
+            Projekti jossa tarkoitus oli harjoitella Reactia ja TypeScriptiä.
+            Tarkoituksena oli luoda laskuri jossa on useita eri lopputulokseen
+            vaikuttavia laskutoimituksia. Korin hinta, matkan pituus, tuotteiden
+            määrä, päivä ja aika mm. vaikuttavat lopulliseen hintaan. Vahvasti
+            tyypitettynä!
           </p>
+          <a href="https://github.com/OAnsaharju/fee-calculator">
+            {" "}
+            Linkki repoon
+          </a>
         </div>
       </div>
       <div className="demo-subcontainer">
         <div className="demo-item">
-          <h4 className="demo-label">Projekti 3</h4>
+          <h4 className="demo-label">Weather app</h4>
           <p className="demo-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse velit
-            cumque repudiandae labore ullam recusandae iure corrupti architecto
-            deleniti blanditiis!
+            Klassikko! Harjoitus jossa tutustuin API käyttöön käyttäen React JS
           </p>
+          <a href="https://github.com/OAnsaharju/weather-app-react">
+            Linkki repoon
+          </a>
         </div>
         <div className="demo-item">
-          <h4 className="demo-label">Projekti 4</h4>
-          <p className="demo-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse velit
-            cumque repudiandae labore ullam recusandae iure corrupti architecto
-            deleniti blanditiis!
-          </p>
+          <h4 className="demo-label">Portfolio</h4>
+          <p className="demo-text">You are looking at it!</p>
+          <a href="https://github.com/OAnsaharju/Portfolio">Linkki repoon</a>
         </div>
       </div>
     </div>

@@ -1,5 +1,7 @@
 .profile-container {
   display: flex;
+  height: 100vh;
+  margin: auto;
 }
 
 .profile-name {
@@ -7,9 +9,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 30%;
   color: rgb(217, 216, 216);
-  margin: 50px;
+  margin: 50px auto;
 }
 
 .profile-content {
@@ -19,7 +21,15 @@
   flex-direction: column;
   width: 50%;
   color: rgb(217, 216, 216);
-  margin: 50px;
+  margin: 50px auto;
+}
+
+.profile-content p {
+  font-size: x-large;
+}
+
+.profile-content h2 {
+  padding-bottom: 20px;
 }
 
 .profile-name h1 {

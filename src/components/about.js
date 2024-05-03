@@ -1,5 +1,16 @@
 import React from "react";
 import "../component styles/about.css";
+import {
+  FaGit,
+  FaGitAlt,
+  FaHtml5,
+  FaNodeJs,
+  FaPython,
+  FaReact,
+} from "react-icons/fa";
+import { FaJava } from "react-icons/fa6";
+import { DiMongodb, DiMysql } from "react-icons/di";
+import { BiColor } from "react-icons/bi";
 
 function About() {
   return (
@@ -9,23 +20,14 @@ function About() {
         Suhtaudun tietojenkäsittelyyn intohimoisesti, ja jo ennen koulua
         opiskelin itsenäisesti ohjelmoinnin alkeita. Olen kartuttanut
         osaamistani useilla eri osa-alueilla, enkä ole löytänyt aihetta joka ei
-        kiinnostaisi Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Quasi necessitatibus eveniet quos. Maiores ad assumenda aliquid porro
-        quos! Voluptas molestiae hic adipisci architecto voluptates. Veniam
-        delectus atque nobis dignissimos neque quae eligendi beatae itaque
-        nesciunt quas repellat eos corrupti minima quos repellendus non aut
-        harum quaerat quod eius, sunt enim.
+        kiinnostaisi.
       </p>
       <h3 className="about-label">Lähestymiseni ohjelmointiin</h3>
       <p className="about-text">
         Jatkuvasti uuden tiedon kerääminen ja osaamisen kartuttaminen omien
         projektien avulla ei ainoastaan ole minulle tärkeää mutta välttämätöntä.
         Olen pyrkinyt tekemään projekteja jotka tuntuvat minulle tärkeiltä
-        oppimisen näkökulmasta. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Sint blanditiis perferendis beatae, necessitatibus
-        eaque voluptate magni in debitis pariatur, laborum totam, soluta
-        quibusdam adipisci dolor quo iste deleniti. Iste minima nisi tempora
-        alias maxime esse assumenda dicta expedita neque eveniet?
+        oppimisen näkökulmasta.
       </p>
       <h3 className="about-label">Koulutus</h3>
       <p className="about-text">
@@ -57,14 +59,31 @@ function About() {
         </li>
       </ul>
       <div className="tech-stack-bar">
-        <p>JS</p>
-        <p>React</p>
-        <p>Node JS</p>
-        <p>Java</p>
-        <p>Python</p>
-        <p>Git</p>
-        <p>Mongo DB</p>
-        <p>MySQL</p>
+        <p>
+          <FaHtml5 size={40} color="#e34c26"></FaHtml5>
+        </p>
+        <p>
+          <FaReact size={40} color="#16c8f2"></FaReact>
+        </p>
+
+        <p>
+          <FaNodeJs size={40} color="6cc24a"></FaNodeJs>
+        </p>
+        <p>
+          <FaJava size={40} color="#e34c26"></FaJava>
+        </p>
+        <p>
+          <FaPython size={40} color="4584b6"></FaPython>
+        </p>
+        <p>
+          <FaGitAlt size={40} color="#F1502F"></FaGitAlt>
+        </p>
+        <p>
+          <DiMongodb size={40} color="#589636"></DiMongodb>
+        </p>
+        <p>
+          <DiMysql size={40} color="#00758f"></DiMysql>
+        </p>
       </div>
     </div>
   );

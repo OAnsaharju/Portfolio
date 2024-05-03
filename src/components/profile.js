@@ -10,14 +10,16 @@ function Profile() {
         <img className="profile-pic" src="../profile-pic.jpg" alt="My pic" />
       </div>
       <div className="profile-content">
+        <h2>Hauska tutustua!</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-          tenetur cum repudiandae nostrum maiores dolores suscipit quas odit
-          ipsam ut. Aperiam quaerat iure perspiciatis eaque architecto
-          voluptates in iusto porro debitis esse culpa earum eum est asperiores
-          autem vero, quidem facilis consectetur quam ipsam beatae tenetur
-          voluptas excepturi? Laboriosam, voluptatibus.
+          Olen Otto ja olen hyvin kiinnostunut kehittämään toimivia, luotettavia
+          ja moderneja ratkaisuja. Opiskelen HAMK:issa tietojenkäsittelyä ja
+          lisäksi käytän vapaa-aikaani paljon osaamiseni kehittämiseen
+          erilaisten projektien muodossa. Olen erityisen kiinnostunut Back-end
+          kehittämisestä, mutta uskon että toimivat tausta-ratkaisut ansaitsevat
+          miellyttävän käyttäjä-rajapinnan.
         </p>
+        <p>Jos kiinnostuit lue toki lisää alhaalta!</p>
       </div>
     </div>
   );

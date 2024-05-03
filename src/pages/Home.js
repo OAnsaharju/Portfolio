@@ -1,20 +1,18 @@
-import React from "react";
+import React, { useRef } from "react";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import Profile from "../components/profile";
 import About from "../components/about";
-import Cv from "../components/cv";
 import Demo from "../components/demo";
 
 function Home() {
   return (
-    <div>
+    <div id="app-wrapper">
       <Navbar />
       <Profile></Profile>
       <About></About>
       <Demo></Demo>
-      <Cv></Cv>
-      <Footer />
+      <Footer id="footer"></Footer>
     </div>
   );
 }
