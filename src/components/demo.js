@@ -16,9 +16,9 @@ function Demo() {
             tietokannoista ja State Management. React JS, MongoDB, Redux,
             Express.
           </p>
-          <a href="https://github.com/OAnsaharju/Golfapp">Linkki repoon</a>
 
           <img src="../golf-app.PNG" alt="Golf app picture" />
+          <a href="https://github.com/OAnsaharju/Golfapp">Linkki repoon</a>
         </div>
         <div className="demo-item">
           <h4 className="demo-label">Delivery Fee Calculator</h4>
@@ -29,26 +29,36 @@ function Demo() {
             määrä, päivä ja aika mm. vaikuttavat lopulliseen hintaan. Vahvasti
             tyypitettynä!
           </p>
+
+          <img src="../calculator-fee.PNG" alt="Fee Calculator app picture" />
           <a href="https://github.com/OAnsaharju/fee-calculator">
             Linkki repoon
           </a>
-          <img src="../calculator-fee.PNG" alt="Fee Calculator app picture" />
         </div>
       </div>
       <div className="demo-subcontainer">
         <div className="demo-item">
           <h4 className="demo-label">Weather app</h4>
           <p className="demo-text">
-            Yksi ensimmäisistä harjoituksista React JS
+            Yksi ensimmäisistä harjoituksista React-ympäristössä jossa mukana
+            myös public API. Klassinen tutorial-projekti jossa pyrin tekemään
+            oman näköisen ratkaisun. Tietoinen päätös olla seuraamatta
+            orjallisesti ohjeita opetti paljon.
           </p>
+
+          <img src="../weather-app.PNG" alt="Weather app picture" />
           <a href="https://github.com/OAnsaharju/weather-app-react">
             Linkki repoon
           </a>
-          <img src="../weather-app.PNG" alt="Weather app picture" />
         </div>
         <div className="demo-item">
           <h4 className="demo-label">Portfolio</h4>
-          <p className="demo-text">You are looking at it!</p>
+          <p className="demo-text">
+            You are looking at it! Staattinen verkkosivu projektieni, osaamiseni
+            ja itseni esittelemiseksi. OnePage ratkaisu on toteutettu käyttäen
+            React JS, CSS, HTML{" "}
+          </p>
+          <img src="../portfolio-pic.PNG" alt="Portfolio app picture" />
           <a href="https://github.com/OAnsaharju/Portfolio">Linkki repoon</a>
         </div>
       </div>
