@@ -19,6 +19,7 @@
 .about-text {
   padding: 1rem;
   color: rgb(207, 207, 207);
+  text-align: center;
 }
 
 .tech-stack-bar {
@@ -44,4 +45,114 @@
 
 .about-subject-item {
   padding: 6px;
+}
+
+@media (max-width: 450px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    margin: 0 auto;
+    border: 1px rgb(230, 230, 230) solid;
+    border-radius: 15px;
+    padding: 0px;
+    background-color: rgba(83, 83, 83, 0.913);
+  }
+
+  .about-label {
+    padding: 1rem;
+    color: rgb(194, 194, 194);
+  }
+
+  .about-text {
+    padding: 1rem;
+    color: rgb(207, 207, 207);
+    text-align: center;
+  }
+
+  .tech-stack-bar {
+    flex-wrap: wrap;
+    display: flex;
+    border: solid white 1px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 14px;
+    height: 100%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .tech-stack-bar p {
+    padding: 5px;
+  }
+
+  .about-subject-list {
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.765);
+  }
+
+  .about-subject-item {
+    padding: 6px;
+    list-style: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    margin: 0 auto;
+    border: 1px rgb(230, 230, 230) solid;
+    border-radius: 15px;
+    padding: 0px;
+    background-color: rgba(83, 83, 83, 0.913);
+  }
+
+  .about-label {
+    padding: 1rem;
+    color: rgb(194, 194, 194);
+  }
+
+  .about-text {
+    padding: 1rem;
+    color: rgb(207, 207, 207);
+    text-align: center;
+  }
+
+  .tech-stack-bar {
+    flex-wrap: wrap;
+    display: flex;
+    border: solid white 1px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 14px;
+    height: 100%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .tech-stack-bar p {
+    padding: 5px;
+  }
+
+  .about-subject-list {
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.765);
+  }
+
+  .about-subject-item {
+    padding: 6px;
+    list-style: none;
+  }
 }

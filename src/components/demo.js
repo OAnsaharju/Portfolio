@@ -17,7 +17,6 @@ function Demo() {
             Express.
           </p>
 
-          <img src="../golf-app.PNG" alt="Golf app picture" />
           <a href="https://github.com/OAnsaharju/Golfapp">Linkki repoon</a>
         </div>
         <div className="demo-item">
@@ -30,7 +29,7 @@ function Demo() {
             tyypitettynä!
           </p>
 
-          <img src="../calculator-fee.PNG" alt="Fee Calculator app picture" />
+          <a href="https://stalwart-tanuki-79b471.netlify.app/">Demo</a>
           <a href="https://github.com/OAnsaharju/fee-calculator">
             Linkki repoon
           </a>
@@ -45,8 +44,9 @@ function Demo() {
             oman näköisen ratkaisun. Tietoinen päätös olla seuraamatta
             orjallisesti ohjeita opetti paljon.
           </p>
-
-          <img src="../weather-app.PNG" alt="Weather app picture" />
+          <a href="https://6635f483822f94c6101cb192--golden-tapioca-86429d.netlify.app/">
+            Demo
+          </a>
           <a href="https://github.com/OAnsaharju/weather-app-react">
             Linkki repoon
           </a>
@@ -58,7 +58,7 @@ function Demo() {
             ja itseni esittelemiseksi. OnePage ratkaisu on toteutettu käyttäen
             React JS, CSS, HTML{" "}
           </p>
-          <img src="../portfolio-pic.PNG" alt="Portfolio app picture" />
+
           <a href="https://github.com/OAnsaharju/Portfolio">Linkki repoon</a>
         </div>
       </div>

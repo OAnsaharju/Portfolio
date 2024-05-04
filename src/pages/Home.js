@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import Profile from "../components/profile";
@@ -12,7 +12,7 @@ function Home() {
       <Profile></Profile>
       <About></About>
       <Demo></Demo>
-      <Footer id="footer"></Footer>
+      <Footer></Footer>
     </div>
   );
 }
