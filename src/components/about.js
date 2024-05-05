@@ -1,51 +1,46 @@
 import React from "react";
 import "../component styles/about.css";
-import {
-  FaGit,
-  FaGitAlt,
-  FaHtml5,
-  FaNodeJs,
-  FaPython,
-  FaReact,
-} from "react-icons/fa";
+import { FaGitAlt, FaHtml5, FaNodeJs, FaPython, FaReact } from "react-icons/fa";
 import { FaJava } from "react-icons/fa6";
 import { DiMongodb, DiMysql } from "react-icons/di";
-import { BiColor } from "react-icons/bi";
 
 function About() {
   return (
     <div className="about-container">
       <h3 className="about-label">Taustaa</h3>
       <p className="about-text">
-        Suhtaudun tietojenkäsittelyyn intohimoisesti, ja jo ennen koulua
+        Suhtaudun tietojenkäsittelyyn intohimoisesti. Jo ennen opintojeni alkua
         opiskelin itsenäisesti ohjelmoinnin alkeita. Olen kartuttanut
-        osaamistani useilla eri osa-alueilla, enkä ole löytänyt aihetta joka ei
-        kiinnostaisi.
+        osaamistani useilla eri osa-alueilla enkä ole löytänyt aihetta, joka ei
+        kiinnostaisi. Käytän englantia erittäin sujuvasti sekä kirjallisesti
+        että suullisesti. Ohjelmoinnin lisäksi nautin golf-kierroksista, kitaran
+        soitosta, lautapeleistä sekä perheen kanssa matkustamisesta.
       </p>
       <h3 className="about-label">Lähestymiseni ohjelmointiin</h3>
       <p className="about-text">
-        Jatkuvasti uuden tiedon kerääminen ja osaamisen kartuttaminen omien
-        projektien avulla ei ainoastaan ole minulle tärkeää mutta välttämätöntä.
-        Olen pyrkinyt tekemään projekteja jotka tuntuvat minulle tärkeiltä
-        oppimisen näkökulmasta.
+        Jatkuva uuden tiedon kerääminen ja osaamisen kartuttaminen omien
+        projektien avulla on minulle tärkeää. Olen tehnyt projekteja, jotka ovat
+        tärkeitä oppimisen näkökulmasta. Elegantti funktio, kaunis animaatio ja
+        toimiva tiimi ovat asioita, jotka houkuttelevat tarttumaan uusiin
+        haasteisiin uudestaan ja uudestaan.
       </p>
       <h3 className="about-label">Koulutus</h3>
       <p className="about-text">
         Koulutukseni Hämeenlinnan ammattikorkeakoulussa on tarjonnut minulle
-        useita hyödyllisiä kursseja ja ryhmätöitä joissa olen oppinut paljon
+        useita hyödyllisiä kursseja ja projekteja, joissa olen oppinut paljon
         ryhmässä työskentelemisestä. Useissa projekteissa on ollut käytössä
-        versionhallinta-työkalut (git) ja Agile työskentelytavat(Scrum) joten
-        nämä ovat tulleet tutuiksi. Ohessa pientä listausta projekteista ja
-        kursseista joille olen osallistunut.
+        versionhallintatyökalut (git) ja Agile-työskentelytavat (Scrum), joten
+        nämä ovat tulleet tutuiksi. Alle olen listannut projekteja ja kursseja,
+        joille olen osallistunut.
       </p>
       <ul className="about-subject-list">
         <li className="about-subject-item">
-          Azure projekti - Intranet Autokaupalle
+          Azure-projekti - Intranet autokaupalle
         </li>
         <li className="about-subject-item">Agile/Scrum perusteet</li>
         <li className="about-subject-item">Java OOP perusteet</li>
         <li className="about-subject-item">
-          Diili projekti - Road to Vostok bug report system ideointi
+          Diili-projekti - Road to Vostok bug report system ideointi
         </li>
         <li className="about-subject-item">
           Käyttöjärjestelmien perusteet Linux, Windows
@@ -53,7 +48,7 @@ function About() {
         <li className="about-subject-item">
           Tietojärjestelmien ja tietoturvallisuuden perusteet
         </li>
-        <li className="about-subject-item">Wordpress projekti</li>
+        <li className="about-subject-item">Wordpress-projekti </li>
         <li className="about-subject-item">
           Datan analysointi Pythonilla (matplotlib, pandas)
         </li>
