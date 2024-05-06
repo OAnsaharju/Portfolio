@@ -13,13 +13,13 @@ function Profile() {
         <h2>Hauska tutustua!</h2>
         <p>
           Olen Otto ja olen hyvin kiinnostunut kehittämään toimivia, luotettavia
-          ja moderneja ratkaisuja. Opiskelen HAMK:issa tietojenkäsittelyä ja
+          ja moderneja ratkaisuja. Opiskelen HAMK:ssa tietojenkäsittelyä ja
           lisäksi käytän vapaa-aikaani paljon osaamiseni kehittämiseen
           erilaisten projektien muodossa. Olen erityisen kiinnostunut Back-end
           kehittämisestä, mutta uskon että toimivat tausta-ratkaisut ansaitsevat
-          miellyttävän käyttäjä-rajapinnan.
+          miellyttävän ulkoasun.
         </p>
-        <p>Jos kiinnostuit lue toki lisää alhaalta!</p>
+        <p>Jos kiinnostuit, lue toki lisää alta!</p>
       </div>
     </div>
   );

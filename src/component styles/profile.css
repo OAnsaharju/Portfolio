@@ -12,6 +12,7 @@
   width: 30%;
   color: rgb(217, 216, 216);
   margin: 50px auto;
+  text-align: center;
 }
 
 .profile-content {
@@ -26,6 +27,7 @@
 
 .profile-content p {
   font-size: x-large;
+  text-align: center;
 }
 
 .profile-content h2 {
@@ -45,4 +47,122 @@
   object-fit: cover;
   max-width: 70%;
   max-height: 70%;
+}
+
+@media (max-width: 450px) {
+  .profile-container {
+    flex-direction: column;
+    height: 90vh;
+    margin-bottom: 10px;
+  }
+
+  .profile-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: rgb(217, 216, 216);
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  .profile-content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+
+    color: rgb(217, 216, 216);
+
+    margin: 0 auto;
+  }
+
+  .profile-content p {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .profile-content h2 {
+    padding-bottom: 2px;
+    font-size: 18px;
+  }
+
+  .profile-name h1 {
+    padding: 1px;
+    font-size: 20px;
+  }
+
+  .profile-name h3 {
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    object-fit: cover;
+    max-width: 60%;
+    max-height: 60%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .profile-container {
+    flex-direction: column;
+    height: 90vh;
+    margin-bottom: 35px;
+  }
+
+  .profile-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: rgb(217, 216, 216);
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  .profile-content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+
+    color: rgb(217, 216, 216);
+
+    margin: 0 auto;
+  }
+
+  .profile-content p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .profile-content h2 {
+    padding-bottom: 2px;
+    font-size: 18px;
+  }
+
+  .profile-name h1 {
+    padding: 1px;
+    font-size: 20px;
+  }
+
+  .profile-name h3 {
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    object-fit: cover;
+    max-width: 60%;
+    max-height: 60%;
+  }
 }

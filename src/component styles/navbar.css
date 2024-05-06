@@ -24,3 +24,17 @@
 .navbar-container a:hover {
   color: #e34c26;
 }
+
+@media (max-width: 450px) {
+  .navbar-container {
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar-container {
+    border-radius: 0;
+    width: 100%;
+    justify-content: space-around;
+    padding: 2rem 0 2rem;
+  }
+}

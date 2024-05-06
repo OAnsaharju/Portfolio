@@ -21,3 +21,17 @@
 .footer-container a:hover {
   color: #e34c26;
 }
+
+@media (max-width: 450px) {
+  .footer-container {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer-container {
+    width: 100%;
+    border-radius: 0;
+  }
+}
