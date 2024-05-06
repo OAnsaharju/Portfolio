@@ -48,7 +48,7 @@ Visit `http://localhost:3000` in your web browser to see the portfolio website.
 
 ## Features
 
-- **Responsive Design**: The portfolio website is designed to be fully responsive and accessible across different devices and screen sizes.
+- **Responsive Design**: The portfolio website is designed to be fully responsive and accessible across different devices and screen sizes. Mind that some of the features are still a work in progress
 - **Projects Showcase**: Showcases a selection of my projects with descriptions, links, and images.
 - **About Me Section**: Provides information about my background, skills, and experiences.
 - **Contact Form**: Includes a contact form for visitors to reach out to me directly.
