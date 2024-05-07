@@ -1,0 +1,36 @@
+{
+  "navbar": {
+    "contact-link": "Contact"
+  },
+
+  "profile": {
+    "profile-content-h2": "Hello there!",
+    "profile-content-p1": "Im Otto and im very interested in developing robust software solutions that does not only work well, but are modern too! I study computer science in HAMK, and i use lot of my free-time doing projects that help me learn more about software developement. Im most interested in Back-end but i believe good Back-end solutions deserve a nice Front-end.",
+    "profile-content-p2": "Interested? Do read more below!"
+  },
+
+  "about": {
+    "about-header-1": "Background",
+    "about-text-1": "I'm very passionate about software developement. Before my studies i already took my first steps in to coding learning the basics. I'm interested in all things tech, and i want to learn as much as possible. Besides coding i like to play golf, guitar and boardgames. Spending time with my family is also very important to me.",
+    "about-header-2": "My Approach",
+    "about-text-2": "It's important for me to gather knowledge and build relevant projects continuously. I have done projects that challenge me and allow me to learn as much as possible. Elegant function, pretty animation and working team are things that inspire me to be the best i can.",
+    "about-header-3": "Education",
+    "about-text-3": "During my studies in HAMK i have attended to many different courses and projects that have thought me about teamwork. Most of the projects have included Agile and Git. Below i have listed some projects and courses that i have attended in school.",
+    "about-subject-1": "Azure-project - Intranet system for car-dealership",
+    "about-subject-2": "Agile/Scrum basics",
+    "about-subject-3": "Java OOP basics",
+    "about-subject-4": "Diili-project - Road to Vostok bug report system brainstorm",
+    "about-subject-5": "OS basics Windows, Linux",
+    "about-subject-6": "Data/System security basics",
+    "about-subject-7": "Wordpress-project",
+    "about-subject-8": "Analyzing data using Python"
+  },
+
+  "demo": {
+    "demo-text-1": "I had to organize our annual golfcompetition and i could not find ready-made team-sorting application in context of golf. I just had to make one myself! This was a great project to learn more about React JS, MongoDB, Redux and Express.",
+    "demo-text-2": "I wanted to learn about React-TS so i created a delivery fee calculator that has many different functionalities that affect the outcome. For instance the combined price of all items, delivery distance, amount of items and date all affect the end result.",
+    "demo-text-3": "One of the firsts. Classic tutorial project where i tried not to follow the instructions religiously. I forced myself to steer away from the tutorial and i learned a lot!",
+    "demo-text-4": "You are looking at it! Static website for showcasing me and my projects. OnePage solution made with React JS, CSS and HTML.",
+    "repo-text": "Repository"
+  }
+}
