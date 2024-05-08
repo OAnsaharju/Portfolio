@@ -18,7 +18,7 @@ function Demo() {
         </div>
         <div className="demo-item">
           <h4 className="demo-label">Delivery Fee Calculator</h4>
-          <p className="demo-text">{t("demo.demo-text-1")}</p>
+          <p className="demo-text">{t("demo.demo-text-2")}</p>
 
           <a href="https://stalwart-tanuki-79b471.netlify.app/">Demo</a>
           <a href="https://github.com/OAnsaharju/fee-calculator">
@@ -29,7 +29,7 @@ function Demo() {
       <div className="demo-subcontainer">
         <div className="demo-item">
           <h4 className="demo-label">Weather app</h4>
-          <p className="demo-text">{t("demo.demo-text-1")}</p>
+          <p className="demo-text">{t("demo.demo-text-3")}</p>
           <a href="https://6635f483822f94c6101cb192--golden-tapioca-86429d.netlify.app/">
             Demo
           </a>
@@ -39,7 +39,7 @@ function Demo() {
         </div>
         <div className="demo-item">
           <h4 className="demo-label">Portfolio</h4>
-          <p className="demo-text">{t("demo.demo-text-1")}</p>
+          <p className="demo-text">{t("demo.demo-text-4")}</p>
 
           <a href="https://github.com/OAnsaharju/Portfolio">
             {t("demo.repo-text")}
