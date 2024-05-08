@@ -13,6 +13,25 @@
   border-radius: 0 0 15px 15px;
 }
 
+.language-buttons {
+  background: white;
+  border-radius: 15px;
+}
+
+.language-buttons button {
+  margin: 7px;
+  padding: 6px;
+  color: white;
+  background-color: rgb(35, 55, 79);
+  border-radius: 8px;
+  border: none;
+  transition: 0.4s;
+}
+
+.language-buttons button:hover {
+  background-color: #e34c26;
+}
+
 .navbar-container a {
   text-decoration: none;
   color: whitesmoke;

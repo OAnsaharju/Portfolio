@@ -1,7 +1,9 @@
 import React from "react";
 import "../component styles/profile.css";
+import { useTranslation } from "react-i18next";
 
 function Profile() {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="profile-container">
       <div className="profile-name">
@@ -10,16 +12,9 @@ function Profile() {
         <img className="profile-pic" src="../profile-pic.jpg" alt="My pic" />
       </div>
       <div className="profile-content">
-        <h2>Hauska tutustua!</h2>
-        <p>
-          Olen Otto ja olen hyvin kiinnostunut kehittämään toimivia, luotettavia
-          ja moderneja ratkaisuja. Opiskelen HAMK:ssa tietojenkäsittelyä ja
-          lisäksi käytän vapaa-aikaani paljon osaamiseni kehittämiseen
-          erilaisten projektien muodossa. Olen erityisen kiinnostunut Back-end
-          kehittämisestä, mutta uskon että toimivat tausta-ratkaisut ansaitsevat
-          miellyttävän ulkoasun.
-        </p>
-        <p>Jos kiinnostuit, lue toki lisää alta!</p>
+        <h2>{t("profile.profile-content-h2")}</h2>
+        <p>{t("profile.profile-content-p1")}</p>
+        <p>{t("profile.profile-content-p2")}</p>
       </div>
     </div>
   );
