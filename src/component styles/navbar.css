@@ -28,7 +28,15 @@
   background-color: #e34c26;
 }
 
-.navbar-container a {
+.language-buttons button:focus {
+  border: solid 1px #e34c26;
+}
+
+.language-buttons button:visited {
+  color: #f29fcc;
+}
+
+.language-buttons butt .navbar-container a {
   text-decoration: none;
   color: whitesmoke;
   font-size: 100%;
@@ -38,6 +46,11 @@
 
 .navbar-container a:hover {
   color: #e34c26;
+}
+
+.navbar-container a {
+  text-decoration: none;
+  color: white;
 }
 
 @media (max-width: 450px) {

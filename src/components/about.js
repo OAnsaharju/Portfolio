@@ -26,29 +26,29 @@ function About() {
         <li className="about-subject-item">{t("about.about-subject-8")}</li>
       </ul>
       <div className="tech-stack-bar">
-        <p>
+        <p alt={"HTML5 logo"}>
           <FaHtml5 size={40} color="#e34c26"></FaHtml5>
         </p>
-        <p>
+        <p alt={"React logo"}>
           <FaReact size={40} color="#16c8f2"></FaReact>
         </p>
 
-        <p>
+        <p alt={"Node JS logo"}>
           <FaNodeJs size={40} color="6cc24a"></FaNodeJs>
         </p>
-        <p>
+        <p alt={"Java logo"}>
           <FaJava size={40} color="#e34c26"></FaJava>
         </p>
-        <p>
+        <p alt={"Python logo"}>
           <FaPython size={40} color="4584b6"></FaPython>
         </p>
-        <p>
+        <p alt={"Git logo"}>
           <FaGitAlt size={40} color="#F1502F"></FaGitAlt>
         </p>
-        <p>
+        <p alt={"Mongo DB logo"}>
           <DiMongodb size={40} color="#589636"></DiMongodb>
         </p>
-        <p>
+        <p alt={"MySQL logo"}>
           <DiMysql size={40} color="#00758f"></DiMysql>
         </p>
       </div>

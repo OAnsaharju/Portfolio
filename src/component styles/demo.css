@@ -34,6 +34,15 @@ h4 {
   background-color: rgba(83, 83, 83, 0.913);
 }
 
+.demo-item a {
+  color: white;
+  margin-top: 4px;
+}
+
+.demo-item a:hover {
+  color: #e34c26;
+}
+
 .demo-subcontainer {
   display: flex;
 }

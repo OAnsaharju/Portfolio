@@ -9,7 +9,11 @@ function Profile() {
       <div className="profile-name">
         <h1>Otto Ansaharju</h1>
         <h2>Software Developer</h2>
-        <img className="profile-pic" src="../profile-pic.jpg" alt="My pic" />
+        <img
+          className="profile-pic"
+          src="../profile-pic.jpg"
+          alt="Picture of the creator"
+        />
       </div>
       <div className="profile-content">
         <h3>{t("profile.profile-content-h2")}</h3>

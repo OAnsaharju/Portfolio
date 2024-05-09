@@ -34,7 +34,7 @@ function Navbar() {
         {t("navbar.contact-link")}
       </a>
 
-      <a href="#" onClick={scrollUp}>
+      <a alt={"Scroll up button"} href="#" onClick={scrollUp}>
         <FaArrowUp></FaArrowUp>
       </a>
     </div>
