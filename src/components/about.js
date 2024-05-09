@@ -9,11 +9,11 @@ function About() {
   const [t, i18n] = useTranslation("global");
   return (
     <div className="about-container">
-      <h3 className="about-label"> {t("about.about-header-1")}</h3>
+      <h4 className="about-label"> {t("about.about-header-1")}</h4>
       <p className="about-text">{t("about.about-text-1")}</p>
-      <h3 className="about-label">{t("about.about-header-2")}</h3>
+      <h4 className="about-label">{t("about.about-header-2")}</h4>
       <p className="about-text">{t("about.about-text-2")}</p>
-      <h3 className="about-label">{t("about.about-header-3")}</h3>
+      <h4 className="about-label">{t("about.about-header-3")}</h4>
       <p className="about-text">{t("about.about-text-3")}</p>
       <ul className="about-subject-list">
         <li className="about-subject-item">{t("about.about-subject-1")}</li>

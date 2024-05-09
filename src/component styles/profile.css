@@ -15,6 +15,11 @@
   text-align: center;
 }
 
+.profile-name h2 {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
 .profile-content {
   justify-content: center;
   align-items: center;
@@ -30,8 +35,9 @@
   text-align: center;
 }
 
-.profile-content h2 {
+.profile-content h3 {
   padding-bottom: 20px;
+  font-size: 25px;
 }
 
 .profile-name h1 {

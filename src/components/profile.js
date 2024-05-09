@@ -8,11 +8,11 @@ function Profile() {
     <div className="profile-container">
       <div className="profile-name">
         <h1>Otto Ansaharju</h1>
-        <h3>Software Developer</h3>
+        <h2>Software Developer</h2>
         <img className="profile-pic" src="../profile-pic.jpg" alt="My pic" />
       </div>
       <div className="profile-content">
-        <h2>{t("profile.profile-content-h2")}</h2>
+        <h3>{t("profile.profile-content-h2")}</h3>
         <p>{t("profile.profile-content-p1")}</p>
         <p>{t("profile.profile-content-p2")}</p>
       </div>
