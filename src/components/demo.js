@@ -11,9 +11,7 @@ function Demo() {
         <div className="demo-item">
           <h4 className="demo-label">Golf App</h4>
           <p className="demo-text">{t("demo.demo-text-1")}</p>
-          <a href="https://6641011cbcb7cefbfe800c1c--teal-mermaid-281a02.netlify.app/">
-            Demo
-          </a>
+          <a href="https://teal-mermaid-281a02.netlify.app/">Demo</a>
 
           <a href="https://github.com/OAnsaharju/Golfapp">
             {t("demo.repo-text")}
