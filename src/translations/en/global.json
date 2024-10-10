@@ -31,6 +31,7 @@
     "demo-text-2": "I wanted to learn about React-TS, so i created a delivery fee calculator with many different functionalities that affect the outcome. For instance, the combined price of all items, delivery distance, amount of items and date all affect the end result.",
     "demo-text-3": "One of the firsts. It's a classic tutorial project where i tried not to follow the instructions religiously. I forced myself to steer away from the tutorial, and i learned a lot!",
     "demo-text-4": "You are looking at it! It's a static website for showcasing me and my projects. OnePage solution made with React JS, CSS and HTML.",
+    "demo-text-5": "Project where me and my experienced associate try to tackle issues in remembering people around you. I am responsible of the backend side of things.Flask, SQLAlchemy, JWT, MySql, TypeScript, ExpoReact, AWS s3.",
     "repo-text": "Repository"
   }
 }

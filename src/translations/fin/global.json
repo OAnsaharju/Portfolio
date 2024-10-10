@@ -31,6 +31,7 @@
     "demo-text-2": "Projekti, jossa tarkoitus oli harjoitella Reactia ja TypeScriptiä. Tarkoituksena oli luoda laskuri, jossa on useita eri lopputulokseen vaikuttavia laskutoimituksia. Mm. Korin hinta, matkan pituus, tuotteiden määrä, päivä ja aika vaikuttavat lopulliseen hintaan. Vahvasti tyypitettynä!",
     "demo-text-3": "Yksi ensimmäisistä harjoituksista React-ympäristössä, jossa mukana myös public API. Klassinen tutorial-projekti, jossa pyrin tekemään oman näköisen ratkaisun. Tietoinen päätös olla seuraamatta orjallisesti ohjeita opetti paljon.",
     "demo-text-4": "You are looking at it! Staattinen verkkosivu projektieni, osaamiseni ja itseni esittelemiseksi. OnePage ratkaisu on toteutettu käyttäen React JS, CSS, HTML.",
+    "demo-text-5": "Projekti jossa yhdessä kokeneemman kehittäjän kanssa pyrimme helpottamaan ihmisten muistamiseen liittyviä ongelmia. Olen projektissa vastuussa backend-ratkaisuista. Flask, SQLAlchemy, JWT, MySql, TypeScript, ExpoReact, AWS s3.",
     "repo-text": "Repository"
   }
 }

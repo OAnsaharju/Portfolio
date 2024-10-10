@@ -46,6 +46,14 @@ function Demo() {
             {t("demo.repo-text")}
           </a>
         </div>
+        <div className="demo-item">
+          <h4 className="demo-label">Prosopagnosia</h4>
+          <p className="demo-text">{t("demo.demo-text-5")}</p>
+
+          <a href="https://github.com/OAnsaharju/Portfolio">
+            {t("demo.repo-text")}
+          </a>
+        </div>
       </div>
     </div>
   );
