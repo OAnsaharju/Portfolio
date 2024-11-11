@@ -47,10 +47,10 @@ function Demo() {
           </a>
         </div>
         <div className="demo-item">
-          <h4 className="demo-label">Prosopagnosia</h4>
+          <h4 className="demo-label">Proso</h4>
           <p className="demo-text">{t("demo.demo-text-5")}</p>
 
-          <a href="https://github.com/OAnsaharju/Portfolio">
+          <a href="https://github.com/OAnsaharju/flask-backend-demo">
             {t("demo.repo-text")}
           </a>
         </div>
